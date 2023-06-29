@@ -25,13 +25,27 @@
 .nv nav p{
     cursor: pointer;
 }
+.left:hover{
+    color: black;
+}
 .nv nav .right{
     display: flex;
     cursor: pointer;
+    gap: 24px;
+}
+.new{
+    text-align: center;
+    margin-top: 22px;
+    font-size: 20px;
+    gap: 24px;
+}
+.new:hover{
+    color: black;
 }
 nav p{
     margin-inline: 11px;
     margin-top: 22px;
+    
 }
 .nv .inp{
     text-align: center;
@@ -40,7 +54,7 @@ nav p{
     text-align: center;
     color: white;
     margin-top: 22px;
-    font-size: 20px;
+    
 }
 .nv .inp input{
     width: 600px;
@@ -66,6 +80,7 @@ nav p{
     margin-top: 55px;
     cursor: pointer;
 }
+
 .collection .text{
     margin-left: 34px;
     margin-top: 44px;
@@ -113,7 +128,7 @@ nav p{
     font-size: 22px;
     cursor: pointer;
 }
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -121,8 +136,8 @@ nav p{
     margin-top: 44px;
     padding: 44px;
 }
-.footer p{
+.name{
     display: flex;
     justify-content: center;
-    align-items: center;
+    justify-content: space-around;   
 }
